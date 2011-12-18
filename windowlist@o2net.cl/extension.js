@@ -35,7 +35,7 @@ const Extension = imports.ui.extensionSystem.extensions['windowlist@o2net.cl'];
 const SpecialMenus = Extension.specialMenus;
 
 const OPTIONS = {
-                    DISPLAY_TITLE: 'TITLE', // TITLE: display the app title next to each icon, APP: display the app name next to each icon, NONE: display no text next to each icon
+                    DISPLAY_TITLE: 'NONE', // TITLE: display the app title next to each icon, APP: display the app name next to each icon, NONE: display no text next to each icon
                     GROUP_BY_APP: false // true: only one button is shown for each application (all windows are grouped), false: every window has its own button
                 };
 
